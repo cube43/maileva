@@ -1,4 +1,4 @@
-build: dup generate dothechown clean requirephpstan phpstan requirepsalm psalm
+build: dup generate dothechown clean phpstan psalm
 	@echo "Build done !"
 
 generate:
@@ -9,6 +9,8 @@ generate:
 	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/.schema.json -g php -o /local/ -c /local/config/notifications-webhooks.config.yml
 	rm .schema.json
 	docker-compose exec php php fix-composer.php
+	docker-compose exec php composer update
+	docker-compose exec php composer bump
 
 clean:
 	rm git_push.sh
@@ -21,12 +23,6 @@ clean:
 
 login:
 	docker-compose exec php sh
-
-requirephpstan:
-	docker-compose exec php composer require --dev phpstan/phpstan
-
-requirepsalm:
-	docker-compose exec php composer require --dev vimeo/psalm
 
 phpstan:
 	docker-compose exec php  ./vendor/bin/phpstan --memory-limit=1000M
