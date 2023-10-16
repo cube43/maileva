@@ -6,3 +6,6 @@ Makefile export-ignore
 .idea/ export-ignore
 fix-composer.php export-ignore
 phpstan-baseline.neon export-ignore
+.github export-ignore
+psalm.xml export-ignore
+psalm.baseline.xml export-ignore

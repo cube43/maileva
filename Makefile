@@ -1,4 +1,4 @@
-build: dup generate dothechown clean requirephpstan phpstan
+build: dup generate dothechown clean requirephpstan phpstan requirepsalm psalm
 	@echo "Build done !"
 
 generate:
@@ -25,8 +25,14 @@ login:
 requirephpstan:
 	docker-compose exec php composer require --dev phpstan/phpstan
 
+requirepsalm:
+	docker-compose exec php composer require --dev vimeo/psalm
+
 phpstan:
 	docker-compose exec php  ./vendor/bin/phpstan --memory-limit=1000M
+
+psalm:
+	docker-compose exec php  ./vendor/bin/psalm
 
 dothechown:
 	sudo chown -R $(USER):$(USER) .
