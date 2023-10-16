@@ -1,0 +1,39 @@
+{
+    "name": "cube43\/mail-eva",
+    "description": "API pour cr\u00e9er et envoyer des Lettres Recommand\u00e9es Electroniques qualifi\u00e9e  Elles comprennent les fonctions cl\u00e9s pour :   - cr\u00e9er un envoi,  - ajouter des documents et des destinataires,  - choisir ses options (Nom, Champ libre, r\u00e9f\u00e9rence dossier, r\u00e9f\u00e9rence client)  - envoyer ses lettres recommand\u00e9es \u00e9lectroniques qualifi\u00e9es.    **Param\u00e9trage de compte exp\u00e9diteur :**     Chaque exp\u00e9diteur d'une Lettre Recommand\u00e9e Electronique qualifi\u00e9e doit poss\u00e9der un compte exp\u00e9diteur. Il est donc n\u00e9cessaire de param\u00e9trer son compte exp\u00e9diteur en passant par l'API <a href=\"\/developpeur\/electronic_mail_emitter\"> electronic_mail_emitter<\/a> ou en se connectant \u00e0 son espace client www.maileva.com et en suivant les \u00e9tapes de param\u00e9trage de compte sur le produit Lettre Recommand\u00e9e Electronique qualifi\u00e9e.     Une fois le param\u00e9trage du compte finalis\u00e9, vous recevrez sous 72h, un recommand\u00e9 papier \u00e0 l'adresse postale de l'exp\u00e9diteur. Il contient un QR Code, la cl\u00e9 OTP et les explications n\u00e9cessaires pour l'utiliser et g\u00e9n\u00e9rer ses codes \u00e0 usage unique. Ces informations sont personnelles et confidentielles.    **Authentification OTP :**    L'authentification OTP est obligatoire pour effectuer des envois de Lettres Recommand\u00e9es Electroniques qualifi\u00e9es. La cl\u00e9 OTP doit \u00eatre demand\u00e9e \u00e0 l'exp\u00e9diteur \u00e0 chaque envoi. Elle permet de g\u00e9n\u00e9rer un code \u00e0 usage unique permettant une authentification \u00e0 un niveau renforc\u00e9. Cette cl\u00e9 OTP ne doit pas \u00eatre stock\u00e9e dans votre application.     Pour g\u00e9n\u00e9rer un code \u00e0 usage unique vous pouvez :     - Demander \u00e0 l'exp\u00e9diteur de t\u00e9l\u00e9charger une application mobile telle Google Authenticator ou Free OTP puis de scanner le QR Code sur son smartphone.     - Demander \u00e0 l'exp\u00e9diteur d'utiliser un g\u00e9n\u00e9rateur de codes \u00e0 usage unique depuis son navigateur (par exemple : https:\/\/otp-client.ar24.fr\/) et de recopier sa cl\u00e9 OTP de 32 caract\u00e8res pr\u00e9sente sur les identifiants papiers obtenus.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https:\/\/openapi-generator.tech",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https:\/\/openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp\/guzzle": "^7.3",
+        "guzzlehttp\/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "^8.0 || ^9.0",
+        "friendsofphp\/php-cs-fixer": "^3.5",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cube43\\Component\\MailEva\\": "src\/"
+        }
+    }
+}
