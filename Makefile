@@ -5,6 +5,9 @@ generate:
 	wget "https://www.maileva.com/app/uploads/2023/09/api-electronic_qualified_registered_mail-v1-3.yaml" -O .schema.json
 	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/.schema.json -g php -o /local/ -c /local/config/envoi-et-suivi-de-lre-qualifiees.config.yml
 	rm .schema.json
+	wget "https://www.maileva.com/app/uploads/2023/09/api-notification_center-v2-6.yaml" -O .schema.json
+	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/.schema.json -g php -o /local/ -c /local/config/notifications-webhooks.config.yml
+	rm .schema.json
 	docker-compose exec php php fix-composer.php
 
 clean:

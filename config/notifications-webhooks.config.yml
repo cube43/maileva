@@ -1,0 +1,8 @@
+invokerPackage: Cube43\Component\MailEva\NotificationsWebhooks
+# apiPackage: cube43/chorus-pro-api => pas besoin
+#artifactVersion: 12.0 # version dans le composer.json => pas besoin
+# modelPackage: toto => pas besoin
+#packageName: ChorusPro # nom dans le readme => pas besoin
+legacyDiscriminatorBehavior: false
+composerPackageName: cube43/mail-eva
+srcBasePath: src/NotificationsWebhooks
