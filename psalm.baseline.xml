@@ -99,6 +99,9 @@
     </UnusedDocblockParam>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImport.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getDelimiter</code>
@@ -123,6 +126,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportInput.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getDelimiter</code>
@@ -137,6 +143,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImports.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAddressesImports</code>
@@ -151,6 +160,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportsRecipient.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCompany</code>
@@ -181,6 +193,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportsRecipientCustomFieldsInner.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getName</code>
@@ -195,6 +210,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportsRecipientPagesRange.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getEndPage</code>
@@ -209,6 +227,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportsRecipientUpdate.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCompany</code>
@@ -229,6 +250,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/AddressesImportsRecipients.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getPaging</code>
@@ -243,6 +267,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/CreateDocumentRequest.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getDocument</code>
@@ -257,6 +284,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/DocumentResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getId</code>
@@ -273,6 +303,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/DocumentsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getDocuments</code>
@@ -287,6 +320,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/ErrorDto.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCode</code>
@@ -301,6 +337,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/ErrorsDto.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getErrors</code>
@@ -313,6 +352,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/Event.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getIdConsent</code>
@@ -339,6 +381,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/ImportRecipientResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getId</code>
@@ -351,6 +396,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/ImportRecipients.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getImportRecipientsId</code>
@@ -363,6 +411,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/ImportRecipientsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAcceptedImport</code>
@@ -375,6 +426,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/Mapping.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getData</code>
@@ -389,6 +443,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/MappingDataInner.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getColumn</code>
@@ -409,6 +466,9 @@
     </PossiblyUnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/Paging.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getNext</code>
@@ -425,6 +485,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientCreation.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCompany</code>
@@ -447,6 +510,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientProofResource.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCreationDate</code>
@@ -465,6 +531,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCompany</code>
@@ -499,6 +568,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientUpdate.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCompany</code>
@@ -521,6 +593,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientsCounts.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAccepted</code>
@@ -551,6 +626,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/RecipientsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getPaging</code>
@@ -565,6 +643,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/SendingCreation.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAdditionalSenderName</code>
@@ -589,6 +670,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/SendingResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAdditionalSenderName</code>
@@ -627,6 +711,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/SendingUpdate.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAdditionalSenderName</code>
@@ -651,6 +738,9 @@
     </UnusedMethod>
   </file>
   <file src="src/EnvoiEtSuiviDeLreQualifiees/Model/SendingsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getPaging</code>
@@ -741,6 +831,9 @@
     </UnusedDocblockParam>
   </file>
   <file src="src/NotificationsWebhooks/Model/Authentication.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getBasic</code>
@@ -755,6 +848,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/Basic.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getLogin</code>
@@ -769,6 +865,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/ErrorResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getCode</code>
@@ -783,6 +882,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/ErrorsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getErrors</code>
@@ -806,6 +908,9 @@
     </PossiblyUnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/NotificationContentCreation.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getClientId</code>
@@ -838,6 +943,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/NotificationResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAttemptCount</code>
@@ -870,6 +978,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/NotificationsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getNotifications</code>
@@ -884,6 +995,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/Oauth2.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getClientId</code>
@@ -902,6 +1016,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/PagingResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getNext</code>
@@ -923,6 +1040,9 @@
     </PossiblyUnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/SubscriptionCreation.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAuthentication</code>
@@ -941,6 +1061,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/SubscriptionModification.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAuthenfication</code>
@@ -955,6 +1078,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/SubscriptionResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getAuthenfication</code>
@@ -975,6 +1101,9 @@
     </UnusedMethod>
   </file>
   <file src="src/NotificationsWebhooks/Model/SubscriptionsResponse.php">
+    <MethodSignatureMustProvideReturnType>
+      <code>__toString</code>
+    </MethodSignatureMustProvideReturnType>
     <PossiblyUnusedMethod>
       <code>__construct</code>
       <code>getPaging</code>
