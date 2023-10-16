@@ -1,0 +1,46 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Variable \\$recipient_creation in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/DestinatairesApi.php
+
+		-
+			message: "#^Variable \\$recipient_update in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/DestinatairesApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/DocumentsApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 2
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/EnvoiApi.php
+
+		-
+			message: "#^Variable \\$sending_creation in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/EnvoiApi.php
+
+		-
+			message: "#^Variable \\$sending_update in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/EnvoiApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 3
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/ImportApi.php
+
+		-
+			message: "#^Variable \\$addresses_imports_recipient_update in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: src/EnvoiEtSuiviDeLreQualifiees/Api/ImportApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: src/NotificationsWebhooks/Api/AbonnementsApi.php
